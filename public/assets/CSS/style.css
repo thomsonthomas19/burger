@@ -1,10 +1,10 @@
 body {
   background: #95ec62;
-}
-
-h1, h2 {
   text-align: center;
 }
+
+/* h1, h2 {
+} */
 
 li {
   padding: 3px;
