@@ -1,15 +1,18 @@
 <div class="row">
-	<div class="col-4">
+	<div class="col-4 font-weight-bold">
 		{{name}}
 	</div>
 
 <div class="col-2">
 
 </div>
-
-	<button class="change-eaten btn btn-info col-3" data-id="{{id}}" data-neweaten="{{eaten}}">
+<div class=" col-3">
+	<button class="change-eaten btn btn-info" data-id="{{id}}" data-neweaten="{{eaten}}">
 		{{#if eaten}}Throw it up I guess?{{else}}EAT IT{{/if}}
 	</button>
+</div>
 
-	<button class="delete-burger btn btn-warning col-3" data-id="{{this.id}}">DELETE!</button>
+<div class=" col-3">
+	<button class="delete-burger btn btn-warning" data-id="{{this.id}}">Throw it in the abyss</button>
+</div>
 </div>

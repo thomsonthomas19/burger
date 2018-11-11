@@ -4,6 +4,8 @@
 
 <h4 class="text-center">Burgers that are waiting to be eaten!</h4>
 
+<br>
+
 <div class="container">
   {{#each burgers}}
     {{#unless eaten}}
@@ -14,6 +16,8 @@
 
 <h4 class="text-center">Burgers that have been eaten!</h4>
 
+<br>
+
 <div class="container">
   {{#each burgers}}
     {{#if eaten}}
@@ -23,12 +27,15 @@
 </div>
 
 <h4 class="text-center">Add a Burger</h4>
+<br>
 <form class="create-form text-center">
 
   <div class="form-group">
     <label for="ca">Burger Name:</label>
     <input type="text" id="ca" name="name">
   </div>
+
+<br>
 
   <button class="btn btn-danger" type="submit">Add Burger</button>
 </form>
