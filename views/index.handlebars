@@ -4,23 +4,23 @@
 
 <h4 class="text-center">Burgers that are waiting to be eaten!</h4>
 
-<ul>
+<div class="container">
   {{#each burgers}}
     {{#unless eaten}}
       {{> burgers/burger-block sleep=true}}
     {{/unless}}
   {{/each}}
-</ul>
+</div>
 
 <h4 class="text-center">Burgers that have been eaten!</h4>
 
-<ul>
+<div class="container">
   {{#each burgers}}
     {{#if eaten}}
       {{> burgers/burger-block sleep=false}}
     {{/if}}
   {{/each}}
-</ul>
+</div>
 
 <h4 class="text-center">Add a Burger</h4>
 <form class="create-form text-center">
