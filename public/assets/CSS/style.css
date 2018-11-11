@@ -6,11 +6,12 @@ body {
 /* h1, h2 {
 } */
 
-li {
-  padding: 3px;
-  margin: 3px;
-  background: #62ec80;
+img {
+  width: 50%;
+  height: 50%;
 }
+
+
 
 .label {
   font-weight: bold;
